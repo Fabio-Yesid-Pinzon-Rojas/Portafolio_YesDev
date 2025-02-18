@@ -149,7 +149,7 @@ p{
 }
 #slide-2:checked ~ .slides{
 
-    transform: translatex(-14.28%);
+    transform: translatex(-15.0%);
 }
 #slide-3:checked ~ .slides{
 
@@ -165,7 +165,7 @@ p{
 }
 #slide-6:checked ~ .slides{
 
-    transform: translatex(-71.41%);
+    transform: translatex(-72.0%);
 }
 #slide-7:checked ~ .slides{
 
@@ -440,7 +440,7 @@ p{
 .btn{
     border-radius: .5rem;
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem;
     display: inline-block;
     width: 200px;
     background-color: var(--first-color);
@@ -479,7 +479,7 @@ p{
     color: var(--title-color);
 }
 .text-first-color{
-    color: var(--first-color);
+    color: var(--black-color);
 }
 
 .text-center{
