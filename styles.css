@@ -544,6 +544,7 @@ p{
 }
 
 .footer{
+    margin-bottom: var(--header-height);
     padding: 0.5rem;
     text-align: center;
     color: var(--black-color);
@@ -683,6 +684,10 @@ display: block;
         display: grid;
         grid-template-columns: repeat(4, 24%);
         justify-content: space-between;
+       }
+
+       .footer{
+        margin-bottom: 0px;
        }
 
     .header{
