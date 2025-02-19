@@ -111,9 +111,9 @@ p{
 }
 .carousel{
     margin: 2rem auto;
-    padding: 2rem 0;
+    max-width: 80vw;
     overflow-x: hidden;
-    max-width: 800px;
+    padding: 2rem 0;
     text-align: center;
     background-color: var(--carousel-bg-color);
 }
@@ -180,6 +180,12 @@ p{
 #slide-6:checked ~ .slides-nav label#dot-6,
 #slide-7:checked ~ .slides-nav label#dot-7{
     background-color: var(--gray-dark-color);
+}
+
+@media screen and (min-width: 1024px) {
+    .carousel {
+        max-width: 800px;
+    }
 }
 
 /****** Contact Form *******/
